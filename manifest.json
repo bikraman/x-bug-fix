@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "X-Bug-Fix",
+    "description": "Bookmarks scrolling fix",
+    "version": "1.0",
+    "permissions": [
+        "tabs",
+        "activeTab"
+    ],
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": "icon.png"
+    },
+    "content_scripts": [
+        {
+          "js": ["content.js"],
+          "matches": [
+            "https://twitter.com/*"
+          ]
+        }
+      ]
+  }
