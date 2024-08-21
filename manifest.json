@@ -15,7 +15,8 @@
         {
           "js": ["content.js"],
           "matches": [
-            "https://twitter.com/*"
+            "https://twitter.com/i/bookmarks*",
+            "https://x.com/i/bookmarks*"
           ]
         }
       ]
